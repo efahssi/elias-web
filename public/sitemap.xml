@@ -3,9 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://elias.fahssi.ca/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>https://elias.fahssi.ca/categories/</loc>
+  </url><url>
+    <loc>https://elias.fahssi.ca/portfolio/</loc>
   </url><url>
     <loc>https://elias.fahssi.ca/series/</loc>
   </url><url>

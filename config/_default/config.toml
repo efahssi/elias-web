@@ -1,11 +1,6 @@
 baseURL = "https://elias.fahssi.ca/"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Website of Jane Doe"
-
-# theme as hugo module
-#theme = "github.com/lxndrblz/anatole"
-# theme as git submodule
 theme = "anatole"
 
 summarylength = 10
@@ -24,7 +19,7 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 
 # Localized dates requires Hugo version 0.87.0
-localizedDates = false
+localizedDates = true
 
 [markup]
     [markup.goldmark]
@@ -46,3 +41,54 @@ localizedDates = false
 [[related.indices]]
   name = 'tags'
   weight = 80
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+  
+  [[menu.main]]
+  name = "Portfolio"
+  weight = 300
+  identifier = "portfolio"
+  url = "/portfolio/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 400
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Accomplishments"
+  weight = 500
+  identifier = "accomplishments"
+
+  [[menu.main]]
+  name = "Awards"
+  weight = 510
+  identifier = "awards"
+  url = "/awards/"
+  parent = "accomplishments"
+
+  [[menu.main]]
+  name = "Certifications"
+  weight = 520
+  identifier = "certifications"
+  url = "/certifications/"
+  parent = "accomplishments"
+
+  [[menu.main]]
+  name = "Contact"
+  weight = 600
+  identifier = "contact"
+  url = "contact"
