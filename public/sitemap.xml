@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://efahssi.github.io/elias-web/</loc>
+    <loc>https://elias.fahssi.ca/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>https://efahssi.github.io/elias-web/categories/</loc>
+    <loc>https://elias.fahssi.ca/categories/</loc>
   </url><url>
-    <loc>https://efahssi.github.io/elias-web/series/</loc>
+    <loc>https://elias.fahssi.ca/series/</loc>
   </url><url>
-    <loc>https://efahssi.github.io/elias-web/tags/</loc>
+    <loc>https://elias.fahssi.ca/tags/</loc>
   </url>
 </urlset>
