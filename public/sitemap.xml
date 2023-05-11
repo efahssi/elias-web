@@ -3,13 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://elias.fahssi.ca/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elias.fahssi.ca/tags/markdown/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elias.fahssi.ca/post/placeholder-text/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elias.fahssi.ca/post/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elias.fahssi.ca/tags/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://elias.fahssi.ca/tags/text/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elias.fahssi.ca/categories/</loc>
+  </url><url>
+    <loc>https://elias.fahssi.ca/tags/index/</loc>
   </url><url>
     <loc>https://elias.fahssi.ca/portfolio/</loc>
   </url><url>
     <loc>https://elias.fahssi.ca/series/</loc>
-  </url><url>
-    <loc>https://elias.fahssi.ca/tags/</loc>
   </url>
 </urlset>
