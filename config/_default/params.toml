@@ -1,8 +1,8 @@
-title = "My Space"
+title = "Elias Fahssi"
 author = "Elias Fahssi"
 #copyright = "2020-2021"
-description = "Call me Jane"
-profilePicture = "images/profile.jpg"
+description = "notes on marketing, strategy, and product"
+profilePicture = "images/profile.png"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
@@ -59,16 +59,6 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 icon = "fab fa-linkedin"
 title = "Linkedin"
 url = "https://de.linkedin.com/"
-
-[[socialIcons]]
-icon = "fab fa-github"
-title = "GitHub"
-url = "https://github.com/lxndrblz/anatole/"
-
-[[socialIcons]]
-icon = "fab fa-instagram"
-title = "instagram"
-url = "https://www.instagram.com/"
 
 [[socialIcons]]
 icon = "fas fa-envelope"
