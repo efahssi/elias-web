@@ -15,6 +15,7 @@ Hugo makes use of a variety of open source projects including:
 - https://github.com/muesli/smartcrop
 - https://github.com/spf13/cobra
 - https://github.com/spf13/viper
+- https://elias.fahssi.ca/resume
 
 Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
 
