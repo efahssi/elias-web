@@ -1,26 +1,29 @@
 +++
-title = "About"
-description = "Hugo, the world's fastest framework for building websites"
+title = "About Elias"
+description = "Elias' corner of the web"
 date = "2019-02-28"
 aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+author = "Elias Fahssi"
 +++
+## About [Author]
 
-Written in Go, Hugo is an open source static site generator available under the [Apache License 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hey there! Thanks for stopping by. I'm [Author], a curious explorer found in the fields of construction, manufacturing, architecture, and design. These days, you'll find me geeking out on Product Marketing and Go-To-Market Strategy, a space where my love for tech and the built environment has come together in fascinating ways. 
 
-Hugo makes use of a variety of open source projects including:
+For the specifics of my journey, why not take a peek at my [resume](https://elias.fahssi.ca/resume)?
 
-- https://github.com/yuin/goldmark
-- https://github.com/alecthomas/chroma
-- https://github.com/muesli/smartcrop
-- https://github.com/spf13/cobra
-- https://github.com/spf13/viper
-- https://elias.fahssi.ca/resume
+My academic trip took me from Linguistics through Philosophy and Sociology, finally finding home in English. This winding path might seem eclectic, but it's what crafted my knack for seeing connections, making sense of the complex, and telling stories that connect.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+At the heart of my work, you'll find a commitment to audience-focused communication. Whether it's a technical document, business proposal, or a piece of creative writing, my aim is to craft stories that drive action, provide clarity, and spark the light of excitement.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+I'm a pragmatic thinker at the core but I never shy away from bringing creativity and curiosity into my work.
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+One of my personal highlights? Staying connected with Mount Royal University, the place that transformed me. As an alumnus, I strive to give back through projects and volunteer work, fostering the same vibrant community that shaped me.
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+I'm endlessly fascinated by the interplay between tech and our lives, especially in how we shape our built environment. Whether it's digitizing ancient texts or spearheading cutting-edge construction tech, I'm all about making meaningful contributions to our evolving digital landscape.
+
+## When I'm Not in Work Mode...
+
+...you might find me cheering for Celtic FC (Glasgow's green and white), getting lost in a book, listening to a full album, or trying out to fountain pen inks. I've also thematically reorganized my pin collection more than once.
+
+In a nutshell, that's me -- Elias. My journey is packed with "right place, right time" moments and I'm grateful for the people who've believed in me along the way. I'm excited for what's to come and ready to embrace new opportunities with open arms. So, whether you're here for professional interests or just to say hi, thank you for stopping by. I appreciate it.
+

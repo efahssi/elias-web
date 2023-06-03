@@ -2,4 +2,4 @@
 author = "Elias Fahssi"
 +++
 
-This is what static **content** *might* look like!!! Yay.
+Welcome to my digital garden, an open parchment where [pen trials](https://medievalbooks.nl/tag/pen-trials/) -- thoughts, reflections, and insights -- take shape. 
