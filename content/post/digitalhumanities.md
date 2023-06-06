@@ -8,13 +8,17 @@ tags = [
     "construction",
     "humanities",
 ]
+thumbnail = "images/digitalhumanities.png"
 +++
 
 Let's start with a term you may not be familiar with: Digital Humanities. It's a field that applies computational methods to the study of art, literature, history, and other traditionally 'human' disciplines. It's about using technology to extract new insights from old data, whether that's a medieval manuscript or an ancient architectural structure.
 
 One of the best examples of this is the Cotton Nero A.x. project. Using advanced imaging technology and text encoding initiative (TEI) guidelines, scholars digitized a 14th-century manuscript containing the only known copies of four different poems. This kind of work is only possible due to the advances in imaging and computing power over the past decades.
 
-![A page from the Cotton Nero A.x. manuscript](../images/carousel-manuscript.jpg "Cotton Nero A.x. manuscript")
+{{< figure src="/images/carousel-manuscript.jpg" caption="*Illustration to Sir Gawain and the Green Knight (London, British Library, MS Cotton Nero A.x., 14th century).*  [Source](https://digitalcollections.ucalgary.ca/Package/2R3BF1FK246CX)">}}
+
+
+
 
 Unsworth's enlightening [article](https://journal.digitalmedievalist.org/article/id/6983/) on Digital Medievalist provides more in-depth exploration of the concept. He discusses how digital technology is not just a tool but a medium that opens new ways of understanding our world.
 

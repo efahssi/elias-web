@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>https://elias.fahssi.ca/</link>
-    <description>Recent content on </description>
+    <title>construction on </title>
+    <link>https://elias.fahssi.ca/tags/construction/</link>
+    <description>Recent content in construction on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://elias.fahssi.ca/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://elias.fahssi.ca/tags/construction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Digital Humanities to Industrialized Construction: The Evolution of an Idea</title>
       <link>https://elias.fahssi.ca/post/digitalhumanities/</link>
@@ -15,17 +15,6 @@
       <guid>https://elias.fahssi.ca/post/digitalhumanities/</guid>
       
         <description>Exploring the transformative power of technology, from the digitization of medieval manuscripts in Digital Humanities to the productivity revolution in Industrialized Construction</description>
-      
-    </item>
-    
-    <item>
-      <title>About Elias</title>
-      <link>https://elias.fahssi.ca/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://elias.fahssi.ca/about/</guid>
-      
-        <description>Elias&#39; corner of the web</description>
       
     </item>
     
