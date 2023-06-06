@@ -8,5 +8,5 @@ Topics may include but are not limited to: the use of computers in humanities te
 
 Read more [about](/about) this site, see [what I've built](/portfolio), and [work with me](https://elias.fahssi.ca/resume) on solving your next big problem.
 
-## Posts:
+## Posts
 
