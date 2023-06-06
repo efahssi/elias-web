@@ -11,7 +11,7 @@ For the specifics of my journey, why not take a peek at my [resume](https://elia
 
 My academic life took me from Linguistics through Philosophy and Sociology, finally finding home in English. This winding path might seem eclectic, but it's what built my knack for seeing connections, making sense of the complex, and telling stories that connect.
 
-I'm endlessly fascinated by the interplay between tech and our lives, especially in how we shape our built environment. 
+I'm endlessly fascinated by the interplay between tech and our lives, especially in how we shape our built and digital environments. 
 
 ## When I'm Not in Work Mode...
 
