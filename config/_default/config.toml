@@ -58,18 +58,18 @@ localizedDates = true
   
   [[menu.main]]
   name = "Portfolio"
-  weight = 300
+  weight = 500
   identifier = "portfolio"
   url = "/portfolio/"
 
   [[menu.main]]
   name = "About"
-  weight = 400
+  weight = 300
   identifier = "about"
   url = "/about/"
 
   [[menu.main]]
   name = "Resume"
-  weight = 500
+  weight = 400
   identifier = "resume"
   url = "/resume/"
