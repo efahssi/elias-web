@@ -11,22 +11,24 @@ tags = [
 thumbnail = "images/digitalhumanities.png"
 +++
 
-Let's start with a term you may not be familiar with: Digital Humanities. It's a field that applies computational methods to the study of art, literature, history, and other traditionally 'human' disciplines. It's about using technology to extract new insights from old data, whether that's a medieval manuscript or an ancient architectural structure.
+Let's start with a term you may not be familiar with: [Digital Humanities](https://guides.lib.utexas.edu/digitalhumanities/introductory-readings). It's a field that applies computational methods to the study of art, literature, history, and other traditionally "human" disciplines. It's about using technology to extract new insights from traditional sources, and opening up new questions and research opportunities. 
 
 One of the best examples of this is the Cotton Nero A.x. project. Using advanced imaging technology and text encoding initiative (TEI) guidelines, scholars digitized a 14th-century manuscript containing the only known copies of four different poems. This kind of work is only possible due to the advances in imaging and computing power over the past decades.
 
-{{< figure src="/images/carousel-manuscript.jpg" caption="*Illustration to Sir Gawain and the Green Knight (London, British Library, MS Cotton Nero A.x., 14th century).*  [Source](https://digitalcollections.ucalgary.ca/Package/2R3BF1FK246CX)">}}
+{{< figure src="/images/carousel-manuscript.jpg" caption="*High resolution images of Sir Gawain and the Green Knight (London, British Library, MS Cotton Nero A.x., 14th century).*  [Source](https://digitalcollections.ucalgary.ca/Package/2R3BF1FK246CX)">}}
 
+More modern examples of digital humanities are projects like [Canada Declassified](https://dhn.utoronto.ca/project/canada-declassified/), which maintains Cold War period records from 1945 through 1991, or [music21](http://web.mit.edu/music21/), a Python toolkit for analyzing musical structure and content.
 
+For me, John Unsworth's 2012 [article](https://journal.digitalmedievalist.org/article/id/6983/) in Digital Medievalist captures the essence of what made me fall in love with medieval studies in the first place:
+> that medievalists are often early adopters of new technologies, and also that medievalists have benefitted, time and again, from their interactions with other fields... medievalists continue to be interested in exploring what new technology can bring to some well-established scholarly practices and genres.
 
+If this sounds exciting, you're in good company. I've been enthralled by this intersection of old and new, and looking back there's a clear thread on my journey into marketing and product.
 
-Unsworth's enlightening [article](https://journal.digitalmedievalist.org/article/id/6983/) on Digital Medievalist provides more in-depth exploration of the concept. He discusses how digital technology is not just a tool but a medium that opens new ways of understanding our world.
-
-If this sounds exciting, you're in good company. I've been enthralled by this intersection of old and new, and it's one of the driving forces behind my journey into Product Marketing and Go-To-Market Strategy in the world of construction and architecture.
+Part of the job is staying current on emerging technology and ways of working. In otherwords
 
 You see, construction is one of those sectors that has long resisted the productivity leaps seen in other industries. The McKinsey study and 'Modernize or Die' report point to a sector lagging in the race of efficiency.
 
-But here's the exciting part - we're on the cusp of a paradigm shift. Enter Industrialized Construction, Building Information Modelling (BIM), and Virtual Design and Construction (VDC). Like Digital Humanities, these technologies are reshaping an 'old' industry, unlocking efficiencies, and providing new insights.
+But here's the exciting part - we're on the cusp of a paradigm shift. Enter Industrialized Construction, Building Information Modelling (BIM), and Virtual Design and Construction (VDC). Like Digital Humanities, these technologies are adding new opportunities to an existing field, unlocking efficiencies, and providing new insights.
 
 Industrialized construction brings the assembly-line efficiency of manufacturing to construction. Projects that would have taken months can now be completed in weeks. And because most of the work is done in a controlled factory environment, there's less waste, fewer delays due to weather, and a higher standard of quality control.
 
