@@ -32,7 +32,7 @@ You see, construction is one of those sectors that has long lagged the productiv
 
 But here's the exciting part: we're on the cusp of a paradigm shift. Enter Industrialized Construction, Building Information Modelling (BIM), and Virtual Design and Construction (VDC). Like Digital Humanities, these technologies are adding new opportunities to an existing field, unlocking efficiencies, and providing new insights.
 
-> Industrialized construction uses industrialized production methods—such as high-volume off-site construction, prefabrication, and on-site construction automation—to build or retrofit buildings, leading to reduced costs and the potential for increased energy efficiency and decarbonization. -[National Renewable Energy Laboratory](https://www.nrel.gov/buildings/industrialized-construction.html)
+> Industrialized construction uses industrialized production methods—such as high-volume off-site construction, prefabrication, and on-site construction automation—to build or retrofit buildings, leading to reduced costs and the potential for increased energy efficiency and decarbonization. - [National Renewable Energy Laboratory](https://www.nrel.gov/buildings/industrialized-construction.html)
 
 Industrialized construction brings the assembly-line efficiency of manufacturing to construction. Projects that would have taken months can now be completed in weeks. And because most of the work is done in a controlled factory environment, there's less waste, fewer delays due to weather, and a higher standard of quality control.
 
