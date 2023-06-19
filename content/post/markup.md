@@ -17,9 +17,9 @@ The summer after discovering Middle English and medieval studies, I was lucky to
 
 Consider the precise strokes of the Caroline minuscule, or the robust and angular forms of the Gothic Textura:
 
-{{< figure src="/images/caroline.png" caption="*Caroline minuscule, a script characterized by its clear, round forms and the careful spacing of words, was developed during the Carolingian Renaissance, serving as a pivotal force in standardizing writing practices across Europe.*  [Source](https://en.wikipedia.org/wiki/Carolingian_minuscule)">}}
+{{< figure src="/images/caroline.jpg" caption="*Caroline minuscule, a script characterized by its clear, round forms and the careful spacing of words, was developed during the Carolingian Renaissance, serving as a pivotal force in standardizing writing practices across Europe.*  [Source](https://en.wikipedia.org/wiki/Carolingian_minuscule)">}}
 
-{{< figure src="/images/gothic.png" caption="*Gothic Textura, a script prevalent in the High and Late Middle Ages, is distinguished by its vertical and angular letterforms, creating a dense and rhythmic visual texture reminiscent of woven fabric.*  [Source](https://en.wikipedia.org/wiki/Blackletter)">}}
+{{< figure src="/images/gothic.jpg" caption="*Gothic Textura, a script prevalent in the High and Late Middle Ages, is distinguished by its vertical and angular letterforms, creating a dense and rhythmic visual texture reminiscent of woven fabric.*  [Source](https://en.wikipedia.org/wiki/Blackletter)">}}
 
 
 At its core, I learned to appreciate the dischotomy between a "text" and a "document": the former being the sequence of symbols that creates meaning, and the latter their physical embodiment in the material world. We'd often look at the same text, a poem for example, across multiple different documents, each with their own layout, script, and origin story.
