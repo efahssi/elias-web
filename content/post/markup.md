@@ -8,7 +8,7 @@ tags = [
     "medieval",
     "humanities",
 ]
-thumbnail = "images/digitalhumanities.png"
+thumbnail = "images/markup.png"
 +++
   
 ## Introduction
