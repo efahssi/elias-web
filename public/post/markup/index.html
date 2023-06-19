@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head>
+  <title>
+    
+      
+        XML, TEI, and the Digitization of Text |
+      Elias Fahssi
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.111.3"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Elias Fahssi" />
+  <meta
+    name="description"
+    content="Exploring the transformative power of XML and TEI in the field of digital humanities"
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.1147aa5bacb4bce677a0e264073829caedb82fd18ea07a5f1d80521f539d1c45.css"
+      integrity="sha256-EUeqW6y0vOZ3oOJkBzgpyu24L9GOoHpfHYBSH1OdHEU="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.73ccfdf28df555e11009c13c20ced067af3cb021504cba43644c705930428b00.css"
+    integrity="sha256-c8z98o31VeEQCcE8IM7QZ688sCFQTLpDZExwWTBCiwA="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.7f3c2281c7f965ce3c64888aa452793252a0416909c181097f81d0a0f7d1624e.css"
+    integrity="sha256-fzwigcf5Zc48ZIiKpFJ5MlKgQWkJwYEJf4HQoPfRYk4="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.35fc032da8ede6681675d20a2f862fb9e1045c1d512d495fcf862c054daffef2.css"
+    integrity="sha256-NfwDLajt5mgWddIKL4YvueEEXB1RLUlfz4YsBU2v/vI="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.3b92357925ea7284f0c6b0378396f39f470f7842ed9702f337e667c4026bf837.css"
+    integrity="sha256-O5I1eSXqcoTwxrA3g5bzn0cPeELtlwLzN&#43;ZnxAJr&#43;Dc="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.ebb1096e1976e8cc4e2532cfa050b8f30eb13b8eb06be5cee3e38eb426b838ea.css"
+    integrity="sha256-67EJbhl26MxOJTLPoFC48w6xO46wa&#43;XO4&#43;OOtCa4OOo="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://elias.fahssi.ca/post/markup/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+      integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://elias.fahssi.ca/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="XML, TEI, and the Digitization of Text"/>
+<meta name="twitter:description" content="Exploring the transformative power of XML and TEI in the field of digital humanities"/>
+
+
+
+  
+  <meta property="og:title" content="XML, TEI, and the Digitization of Text" />
+<meta property="og:description" content="Exploring the transformative power of XML and TEI in the field of digital humanities" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://elias.fahssi.ca/post/markup/" /><meta property="og:image" content="https://elias.fahssi.ca/images/site-feature-image.png"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-06-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-06-19T00:00:00+00:00" /><meta property="og:site_name" content="Elias Fahssi" />
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "XML, TEI, and the Digitization of Text",
+        "headline": "XML, TEI, and the Digitization of Text",
+        "alternativeHeadline": "",
+        "description": "
+      Exploring the transformative power of XML and TEI in the field of digital humanities
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/elias.fahssi.ca\/post\/markup\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Elias Fahssi"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Elias Fahssi"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Elias Fahssi"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Elias Fahssi"
+        },
+        "copyrightYear" : "2023",
+        "dateCreated": "2023-06-19T00:00:00.00Z",
+        "datePublished": "2023-06-19T00:00:00.00Z",
+        "dateModified": "2023-06-19T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Elias Fahssi",
+            "url": "https://elias.fahssi.ca/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/elias.fahssi.ca\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "https://elias.fahssi.ca/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "https:\/\/elias.fahssi.ca\/post\/markup\/",
+        "wordCount" : "685",
+        "genre" : [ ],
+        "keywords" : [ 
+      
+      "technology"
+
+    
+      
+        ,
+
+      
+      "medieval"
+
+    
+      
+        ,
+
+      
+      "humanities"
+
+    ]
+    }
+  </script>
+
+
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/profile.png"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">Elias Fahssi</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>writing from Canada's sunniest city</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.linkedin.com/in/efahssi/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Linkedin"
+            title="Linkedin"
+          >
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="mailto:elias@fahssi.ca"
+            target="_blank"
+            rel="noopener me"
+            aria-label="e-mail"
+            title="e-mail"
+          >
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Elias Fahssi
+        2023
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/post/"
+              
+              title=""
+              >Posts</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/about/"
+              
+              title=""
+              >About</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/resume/"
+              
+              title=""
+              >Resume</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/portfolio/"
+              
+              title=""
+              >Portfolio</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+      <div class="post__thumbnail-wrapper">
+        <img class="post__thumbnail" src="/images/digitalhumanities.png" alt="Thumbnail image" />
+      </div>
+    
+    <div class="post__content">
+      <h1>XML, TEI, and the Digitization of Text</h1>
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                
+                  19/6/2023
+                
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">4-minute read</span>
+          </li>
+        </ul>
+      <h2 id="introduction">Introduction</h2>
+<p>The summer after discovering Middle English and medieval studies, I was lucky to sit in a directed reading course focused on palaeography, or the study of old writing systems. Before the invention of the printing press, handwriting was the norm. Now imagine the many languages and cultures across 14th century Europe. Now consider that our concept of a modern alphabet, with its standard letters and fixed order, was not yet fully formed. In the medieval world, there was no fixed style of writing. Instead, there were many different <em>scripts</em>, each a stylistic embodiment of the culture and the time. A script was akin to an expression of aesthetic, intellectual, and culture values, used to convey different languages across the contintent.</p>
+<p>Consider the precise strokes of the Caroline minuscule, or the robust and angular forms of the Gothic Textura:</p>
+<figure><img src="/images/caroline.png"
+         alt="Caroline minuscule, a script characterized by its clear, round forms and the careful spacing of words, was developed during the Carolingian Renaissance, serving as a pivotal force in standardizing writing practices across Europe. Source"/><figcaption>
+            <p><em>Caroline minuscule, a script characterized by its clear, round forms and the careful spacing of words, was developed during the Carolingian Renaissance, serving as a pivotal force in standardizing writing practices across Europe.</em>  <a href="https://en.wikipedia.org/wiki/Carolingian_minuscule">Source</a></p>
+        </figcaption>
+</figure>
+
+<figure><img src="/images/gothic.png"
+         alt="Gothic Textura, a script prevalent in the High and Late Middle Ages, is distinguished by its vertical and angular letterforms, creating a dense and rhythmic visual texture reminiscent of woven fabric. Source"/><figcaption>
+            <p><em>Gothic Textura, a script prevalent in the High and Late Middle Ages, is distinguished by its vertical and angular letterforms, creating a dense and rhythmic visual texture reminiscent of woven fabric.</em>  <a href="https://en.wikipedia.org/wiki/Blackletter">Source</a></p>
+        </figcaption>
+</figure>
+
+<p>At its core, I learned to appreciate the dischotomy between a &ldquo;text&rdquo; and a &ldquo;document&rdquo;: the former being the sequence of symbols that creates meaning, and the latter their physical embodiment in the material world. We&rsquo;d often look at the same text, a poem for example, across multiple different documents, each with their own layout, script, and origin story.</p>
+<p>My exploration of these concepts led me to appreciate the immense value of two linked technologies focused on markup: XML and TEI &ndash; digital tools capable of capturing and digitally representing texts and documents.</p>
+<h2 id="part-i-a-brief-history-of-markup-and-xml">Part I: A Brief History of Markup and XML</h2>
+<p>The concept of markup has its roots in the traditional publishing industry. Editors and typesetters would annotate manuscripts with instructions for typesetting, essentially &lsquo;marking up&rsquo; the text. As we moved from physical print to digital documents, the concept evolved into what we now know as the Standard Generalized Markup Language (SGML). This early digital markup language, established in the 1980s, was comprehensive but complex - a digital reflection of the heavily annotated manuscripts of yesteryears.</p>
+<p>SGML&rsquo;s intricacies paved the way for the development of XML (eXtensible Markup Language). XML, developed by the World Wide Web Consortium (W3C) in the late 1990s, took the core concepts of SGML and simplified them. It stripped away some of the complexity, aiming to create a standard that was both powerful and easy to use. The result was a more flexible and accessible way to define the structure and data within a document.</p>
+<h2 id="part-ii-the-evolution-and-impact-of-tei">Part II: The Evolution and Impact of TEI</h2>
+<p>While XML provided the means to markup and structure data, it was the Text Encoding Initiative (TEI) that brought it to life in the humanities. Introduced in 1987, TEI offered a standardized set of guidelines for encoding machine-readable texts, particularly within the humanities and social sciences.</p>
+<p>TEI represented a significant expansion of the scope of XML, specifically tailored to meet the diverse needs of textual scholars. It allowed for the encoding of complex textual phenomena often found in scholarly texts, such as revisions, deletions, additions, and marginalia – aspects that are often collectively referred to as &lsquo;paratext&rsquo;.</p>
+<p>For instance, consider a simple modern letter:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="nt">&lt;TEI</span> <span class="na">xmlns=</span><span class="s">&#34;http://www.tei-c.org/ns/1.0&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;teiHeader&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;fileDesc&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;titleStmt&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;title&gt;</span>A Brief Letter<span class="nt">&lt;/title&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;/titleStmt&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;publicationStmt&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;p&gt;</span>Unpublished<span class="nt">&lt;/p&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;/publicationStmt&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;sourceDesc&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;p&gt;</span>Written by John Doe<span class="nt">&lt;/p&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;/sourceDesc&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/fileDesc&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;/teiHeader&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;text&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;body&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;div</span> <span class="na">type=</span><span class="s">&#34;letter&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;opener&gt;</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&lt;salute&gt;</span>Dear Jane,<span class="nt">&lt;/salute&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;/opener&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;p&gt;</span>I hope this letter finds you well.<span class="nt">&lt;/p&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;closer&gt;</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&lt;salute&gt;</span>Yours sincerely,<span class="nt">&lt;/salute&gt;</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&lt;signed&gt;&lt;persName&gt;</span>John<span class="nt">&lt;/persName&gt;&lt;/signed&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;/closer&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;/div&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/body&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;/text&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/TEI&gt;</span>
+</span></span></code></pre></div><p>And a basic encoding of a scene from Shakespeare&rsquo;s &ldquo;Romeo and Juliet&rdquo; might look like:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="nt">&lt;TEI</span> <span class="na">xmlns=</span><span class="s">&#34;http://www.tei-c.org/ns/1.0&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;teiHeader&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;fileDesc&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;titleStmt&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;title&gt;</span>Romeo and Juliet, Act 2, Scene 2<span class="nt">&lt;/title&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;/titleStmt&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;publicationStmt&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;p&gt;</span>William Shakespeare<span class="nt">&lt;/p&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;/publicationStmt&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/fileDesc&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;/teiHeader&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;text&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;body&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;div</span> <span class="na">type=</span><span class="s">&#34;play&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;div</span> <span class="na">type=</span><span class="s">&#34;act&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&lt;head&gt;</span>Act 2<span class="nt">&lt;/head&gt;</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&lt;div</span> <span class="na">type=</span><span class="s">&#34;scene&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&lt;head&gt;</span>Scene 2<span class="nt">&lt;/head&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&lt;sp&gt;</span>
+</span></span><span class="line"><span class="cl">              <span class="nt">&lt;speaker&gt;</span>Juliet<span class="nt">&lt;/speaker&gt;</span>
+</span></span><span class="line"><span class="cl">              <span class="nt">&lt;l&gt;</span>O Romeo, Romeo! wherefore art thou Romeo?<span class="nt">&lt;/l&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&lt;/sp&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&lt;sp&gt;</span>
+</span></span><span class="line"><span class="cl">              <span class="nt">&lt;speaker&gt;</span>Romeo<span class="nt">&lt;/speaker&gt;</span>
+</span></span><span class="line"><span class="cl">              <span class="nt">&lt;l&gt;</span>It is my lady, O, it is my love!<span class="nt">&lt;/l&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&lt;/sp&gt;</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&lt;/div&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;/div&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;/div&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/body&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;/text&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/TEI&gt;</span>
+</span></span></code></pre></div></div>
+    <div class="post__footer">
+      
+
+      
+        <span><a class="tag" href="/tags/technology/">technology</a><a class="tag" href="/tags/medieval/">medieval</a><a class="tag" href="/tags/humanities/">humanities</a></span>
+
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Elias Fahssi
+        2023
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></body>
+</html>
