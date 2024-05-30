@@ -11,7 +11,6 @@ tags = [
 thumbnail = "images/markup.png"
 +++
   
-## Introduction
   
 The summer after discovering Middle English and medieval studies, I was lucky to sit in a directed reading course focused on palaeography, or the study of old writing systems. Before the invention of the printing press, handwriting was the norm. Now imagine the many languages and cultures across 14th century Europe. Now consider that our concept of a modern alphabet, with its standard letters and fixed order, was not yet fully formed. In the medieval world, there was no fixed style of writing. Instead, there were many different *scripts*, each a stylistic embodiment of the culture and the time. A script was akin to an expression of aesthetic, intellectual, and culture values, used to convey different languages across the contintent.  
 
@@ -109,4 +108,4 @@ And a basic encoding of a scene from Shakespeare's "Romeo and Juliet" might look
 </TEI>
 ```
 
-Got it??!!!
+Here you can see the digital representation of the physical text. We're able to capture all the components that exist, and because they are based on a standard set of tags and concepts, new opportuniteis for research and analysis emerge.
